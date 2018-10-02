@@ -141,6 +141,7 @@ https://xsltdev.ru/workspace/uploads/css/blend-mode-luminosity.png
 link: 
 1.https://developer.mozilla.org/ru/docs/Web/CSS/Reference/background-blend-mode
 2.http://css.yoksel.ru/background-blend-mode/
+3.https://html5book.ru/svoystvo-background-blend-mode/ 
 
 
 Значения такие - же как и у  < mix-blend-mod >
