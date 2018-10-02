@@ -17,8 +17,7 @@ CSS свойство mix-blend-mode опреляет режим смешиван
 
 
 
-mix-blend-mode: normal;    => default 
-https://xsltdev.ru/workspace/uploads/css/blend-mode-normal.png
+mix-blend-mode: normal;    => [default](https://xsltdev.ru/workspace/uploads/css/blend-mode-normal.png)
 
 
 mix-blend-mode: multiply;  => Конечный цвет — результат умножения верхнего и нижнего цветов. Черный слой приводит к черному окончательному слою, а белый слой не приводит к изменению. Эффект подобен двум изображениям, нанесенным на прозрачную пленку.
