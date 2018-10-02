@@ -136,6 +136,14 @@ mix-blend-mode: luminosity;
 https://xsltdev.ru/workspace/uploads/css/blend-mode-luminosity.png
 
 
+  < background-blend-mode >
+
+link: 
+1.https://developer.mozilla.org/ru/docs/Web/CSS/Reference/background-blend-mode
+2.http://css.yoksel.ru/background-blend-mode/
+
+
+Значения такие - же как и у  < mix-blend-mod >
 
 
 
