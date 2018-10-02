@@ -1,0 +1,87 @@
+blend-mode
+
+
+  < mix-blend-mod >
+
+
+link: 
+  1. https://css-tricks.com/almanac/properties/m/mix-blend-mode/
+	2. https://developer.mozilla.org/ru/docs/Web/CSS/mix-blend-mode
+
+
+
+                Description
+
+
+CSS свойство mix-blend-mode опреляет режим смешивания цветов выбранного элемента с низлежащими слоями.	
+
+
+
+mix-blend-mode: normal;    => default 
+https://xsltdev.ru/workspace/uploads/css/blend-mode-normal.png
+
+
+mix-blend-mode: multiply;  => Конечный цвет — результат умножения верхнего и нижнего цветов. Черный слой приводит к черному окончательному слою, а белый слой не приводит к изменению. Эффект подобен двум изображениям, нанесенным на прозрачную пленку.
+https://xsltdev.ru/workspace/uploads/css/blend-mode-multiply.png
+
+
+mix-blend-mode: screen;   => Конечный цвет является результатом инверсии цветов, их умножения и инвертирования этого значения. Черный слой не приводит к изменению, а белый слой приводит к белому окончательному слою. Эффект подобен двум изображениям, сияющим на экране проекции.
+https://xsltdev.ru/workspace/uploads/css/blend-mode-screen.png
+
+
+mix-blend-mode: overlay; => Конечный цвет — результат multiply, если нижний цвет темнее или screen, если нижний цвет светлее. Этот режим смешивания эквивалентен hard-light, но со слоем обмена. 
+https://xsltdev.ru/workspace/uploads/css/blend-mode-overlay.png
+
+
+mix-blend-mode: darken;  => Конечный цвет состоит из самых темных значений каждого цветового канала.
+https://xsltdev.ru/workspace/uploads/css/blend-mode-darken.png
+
+
+mix-blend-mode: lighten; => Конечный цвет состоит из самых светлых значений каждого цветового канала. 
+https://xsltdev.ru/workspace/uploads/css/blend-mode-lighten.png
+
+
+mix-blend-mode: color-dodge; => Конечный цвет — результат деления нижнего цвета на обратный верхний цвет. Черный передний план не приводит к изменению. Передний план с обратным цветом фона приводит к полностью освещенному цвету. Этот режим смешивания похож на screen, но передняя часть должна быть только такой же cdtnkjq, как обратная сторона фона, чтобы создать полностью освещенный цвет.
+https://xsltdev.ru/workspace/uploads/css/blend-mode-color-dodge.png
+
+
+mix-blend-mode: color-burn; => Конечный цвет является результатом инвертирования нижнего цвета, деления значения на верхний цвет и инвертирования этого значения. Белый передний план не дает никаких изменений. Передний план с обратным цветом фона приводит к черному окончательному изображению. Этот режим смешивания аналогичен multiply, но переднего плана нужно только быть темным, как обратное к фону, чтобы сделать окончательное изображение черным.
+https://xsltdev.ru/workspace/uploads/css/blend-mode-color-burn.png
+
+
+mix-blend-mode: hard-light;  => Конечный цвет — результат multiply, если верхний цвет темнее или screen, если верхний цвет светлее. Этот режим смешивания эквивалентен overlay, но со слоем обмена. Эффект подобен сиянию сурового прожектора на заднем плане.
+https://xsltdev.ru/workspace/uploads/css/blend-mode-hard-light.png
+
+
+mix-blend-mode: soft-light; => Конечный цвет похож на hard-light, но мягче. Этот режим смешивания ведет себя аналогично hard-light. Эффект подобен сиянию рассеянного прожектора на заднем плане.
+https://xsltdev.ru/workspace/uploads/css/blend-mode-soft-light.png
+
+
+mix-blend-mode: difference; => Конечный цвет — результат вычитания более темного из двух цветов из более светлого. Черный слой не действует, а белый слой инвертирует цвет другого слоя. 
+https://xsltdev.ru/workspace/uploads/css/blend-mode-difference.png
+
+
+mix-blend-mode: exclusion;  => Конечный цвет похож на difference, но с меньшим контрастом. Как и difference, черный слой не действует, а белый слой инвертирует цвет другого слоя.
+https://xsltdev.ru/workspace/uploads/css/blend-mode-exclusion.png
+
+
+mix-blend-mode: hue;  => Конечный цвет имеет оттенок верхнего цвета, используя насыщенность и светимость нижнего цвета.
+https://xsltdev.ru/workspace/uploads/css/blend-mode-hue.png
+
+
+mix-blend-mode: saturation;   => Конечный цвет имеет насыщенность верхнего цвета, используя оттенок и светимость нижнего цвета. Чистый серый фон, без насыщения, не будет иметь никакого эффекта.
+https://xsltdev.ru/workspace/uploads/css/blend-mode-saturation.png
+
+
+mix-blend-mode: color;   =>  Конечный цвет имеет оттенок и насыщенность верхнего цвета, при этом используется яркость нижнего цвета. Эффект сохраняет уровни серого и может использоваться для раскрашивания переднего плана.
+https://xsltdev.ru/workspace/uploads/css/blend-mode-color.png
+
+
+mix-blend-mode: luminosity;  => Конечный цвет имеет яркость верхнего цвета, используя оттенок и насыщенность нижнего цвета. Этот режим смешивания эквивалентен color, но при этом слои меняются местами.
+https://xsltdev.ru/workspace/uploads/css/blend-mode-luminosity.png
+
+
+
+
+
+ 
