@@ -1,0 +1,25 @@
+*{
+  margin: 0; padding: 0;
+}
+html, body{
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  background: #f98;
+}
+section > p{
+  margin: 0 10px; padding: 10px;
+}
+
+section *{
+  display: block;
+  border: 1px solid green;
+  margin: 10px; padding: 10px;
+}
+
+.wrapper{
+  display: block;
+  background: #f76;
+}
