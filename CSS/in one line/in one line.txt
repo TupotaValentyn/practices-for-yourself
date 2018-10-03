@@ -1,0 +1,107 @@
+    < background >
+
+link: 
+https://www.w3schools.com/cssref/css3_pr_background.asp
+
+background: background-attachment || background-color || background-image || background-position || background-repeat
+
+=> 
+background: [background-color] [background-image]
+background-repeat] [background-attachment] [background-position];
+
+
+new syntax : => 
+background: [background-color] [background-image] [background-repeat][background-attachment][background-position] / [ background-size][background-origin] [background-clip];
+
+
+**
+background-color: color|transparent|initial|inherit;
+
+**
+            < background > |=> # background-image #  
+
+background-image: url|none|initial|inherit;
+
+background-image: linear-gradient(color, color);
+background-image: radial-gradient(color, color);
+background-image: repeating-linear-gradient(color, color value%);
+background-image: repeating-radial-gradient(color, color value%);
+
+        ____NexT___>>>>>____  
+
+**
+            < background > |=> # background-repeat #
+
+background-repeat: repeat|repeat-x|repeat-y|no-repeat|initial|inherit;
+
+background-repeat: space;
+background-repeat: round;
+
+**            
+            < background > |=> # background-attachment #
+
+background-attachment: scroll|fixed|local|initial|inherit;
+
+**
+            < background > |=> # background-position #
+
+
+background-position: value;
+
+: top, right, left, bottom, center;
+: x%, y%;
+: xpos, ypos;
+
+initial, inherit;
+
+
+
+          < background -- more >
+
+1. bg - origin
+2. bg - size 
+3. bg - clip
+4. bg - mix-blend-mode
+
+_ _ _ 
+
+*
+1. background - origin: 
+      
+      property: 
+        1. padding-box  
+        2. border-box 
+        3. content-box
+        4. initial
+        5. inherit
+*
+2. background - size: 
+
+      property: 
+        1. length
+        2. percentage
+        3. cover
+        4. contain 
+        5. initial
+        6. inherit
+*
+3. background-clip: 
+
+      property: 
+        1. padding-box  
+        2. border-box 
+        3. content-box
+        4. initial
+        5. inherit
+
+background-mix-blend-mode : 
+
+    check - mix-blend-mode;
+
+
+
+
+
+
+
+
